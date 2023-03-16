@@ -1,0 +1,18 @@
+{
+	"datasetPath": "datasets/foodmart.txt",
+	"numSwaps": 45797,
+	"numEstSamples": 10000,
+	"numWySamples": 1000,
+	"minFreq": 0.0003,
+	"fwer": 0.05,
+	"numThreads": 32,
+	"seed": -1,
+	"cleanup": false,
+	"resultsDir": "experiments/results/sigFreqItemsets/foodmart",
+	"samplesDir": "experiments/samples/foodmart",
+	"logsDir": "experiments/logs/foodmart",
+	"samplers": ["NaiveSampler", "RefinedSampler", "GMMTSampler"],
+	"mineOnly": false,
+	"processOnly": false,
+	"wyOnly": true 
+}
