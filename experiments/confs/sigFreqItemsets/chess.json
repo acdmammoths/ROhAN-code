@@ -1,0 +1,18 @@
+{
+	"datasetPath": "datasets/chess.txt",
+	"numSwaps": 118252,
+	"numEstSamples": 10000,
+	"numWySamples": 128,
+	"minFreq": 0.8,
+	"fwer": 0.05,
+	"numThreads": 32,
+	"seed": -1,
+	"cleanup": false,
+	"resultsDir": "experiments/results/sigFreqItemsets/chess",
+	"samplesDir": "experiments/samples/chess",
+	"logsDir": "experiments/logs/chess",
+	"samplers": ["NaiveSampler", "RefinedSampler", "GMMTSampler"],
+	"mineOnly": false,
+	"processOnly": false,
+	"wyOnly": true
+}

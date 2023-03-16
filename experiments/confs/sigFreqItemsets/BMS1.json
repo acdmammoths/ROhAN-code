@@ -1,0 +1,18 @@
+{
+	"datasetPath": "datasets/BMS1.txt",
+	"numSwaps": 299278,
+	"numEstSamples": 10000,
+	"numWySamples": 128,
+	"minFreq": 0.001,
+	"fwer": 0.05,
+	"numThreads": 32,
+	"seed": -1,
+	"cleanup": false,
+	"resultsDir": "experiments/results/sigFreqItemsets/BMS1",
+	"samplesDir": "experiments/samples/BMS1",
+	"logsDir": "experiments/logs/BMS1",
+	"samplers": ["NaiveSampler", "RefinedSampler", "GMMTSampler"],
+	"mineOnly": false,
+	"processOnly": false,
+	"wyOnly": false
+}

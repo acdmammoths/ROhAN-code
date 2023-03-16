@@ -1,0 +1,18 @@
+{
+	"datasetPath": "datasets/mushrooms.txt",
+	"numSwaps": 193568,
+	"numEstSamples": 10000,
+	"numWySamples": 128,
+	"minFreq": 0.3,
+	"fwer": 0.05,
+	"numThreads": 32,
+	"seed": -1,
+	"cleanup": false,
+	"resultsDir": "experiments/results/sigFreqItemsets/mushrooms",
+	"samplesDir": "experiments/samples/mushrooms",
+	"logsDir": "experiments/logs/mushrooms",
+	"samplers": ["NaiveSampler", "RefinedSampler", "GMMTSampler"],
+	"mineOnly": false,
+	"processOnly": false,
+	"wyOnly": false
+}
