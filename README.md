@@ -5,7 +5,7 @@ CI](https://github.com/acdmammoths/ROhAN-code/actions/workflows/JavaCI.yml/badge
 
 This repository contains the code for the paper *ROhAN: Row-Order Agnostic Null
 Models for Statistically-sound Knowledge
-Discovery* ([PDF](LeeEtAl-ROhAN-DMKD23.pdf)), by Maryam Abuissa, [Alexander
+Discovery* ([PDF](AbuissaEtAl-ROhAN-DMKD23.pdf)), by Maryam Abuissa, [Alexander
 Lee](https://www.alexanderwlee.com), and [Matteo
 Riondato](https://matteo.rionda.to), appearing in the [*Data Mining and
 Knowledge Discovery*](https://www.springer.com/journal/10618) Special Issue for
