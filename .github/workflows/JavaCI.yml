@@ -7,6 +7,11 @@ on:
 jobs:
   build:
 
+    permissions:
+      # Needed by advanced-security/maven-dependency-submission-action
+      # (see their README)
+      contents: write
+
     runs-on: ubuntu-latest
 
     steps:
